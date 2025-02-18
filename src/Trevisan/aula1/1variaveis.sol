@@ -15,6 +15,7 @@ contract ExemplosVariaveis {
     /// @notice Um número para testar limites de uint8.
     uint8 public testLimit;
 
+
     /// @notice O número maximo do uint256.
     uint256 public maxUint = type(uint256).max;
 

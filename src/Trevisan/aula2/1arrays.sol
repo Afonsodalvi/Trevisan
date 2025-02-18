@@ -14,6 +14,19 @@ contract ExemplosArrays {
     /// @notice Array dinâmico para armazenar nomes de disciplinas.
     string[] public disciplinas;
 
+
+    // MATRIZ DE ARRAYS
+    //+-----------------------------------------+
+    //|                                         |
+    //|  Linha 0:  [ "Matemática" , "Prof. João" ]  <- Cada linha é um array com 2 elementos  
+    //|                                         |
+    //|  Linha 1:  [ "Português"  , "Prof. Maria" ]  
+    //|                                         |
+    //|  Linha 2:  [ "História"   , "Prof. Carlos" ]  
+    //|                                         |
+    //+-----------------------------------------+
+
+
     /// @notice Array multidimensional para armazenar disciplinas e seus professores.
     /// @dev Cada entrada é uma matriz onde:
     /// - Índice 0: Nome da disciplina.
